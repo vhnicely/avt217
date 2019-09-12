@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:azure;
+}
+
+#wrapper {
+	background-color:lightseagreen;
+	width: 90%;
+	margin-left: 30px;
+}
+
+header {
+	background-color:cornsilk;
+}
+
+article{
+	background-color:lightgray;
+}
+
+footer {
+	background-color:darkturquoise;
+}
+
+#headerstuff {
+	background-color:lightskyblue;
+	width: 100px;
+	float: left;
+}
+
+nav { 
+	background-color:khaki;
+	width: 200px;
+	float: left;
+}
+

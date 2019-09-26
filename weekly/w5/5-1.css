@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background: #D4B97F;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+p {
+	font-weight: bold;
+}
+h1{
+	border-bottom: thin dashed #182750;
+}
+
+dt {
+	margin-bottom: 15px;
+}
+
+dd {
+	margin-bottom: 5px;
+	font-weight: lighter;
+}

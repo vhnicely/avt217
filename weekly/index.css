@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color:floralwhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+dt {
+	font-weight:bold;
+}
+
+a:link{
+	text-decoration: none;
+	color:palevioletred;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+a:visited{
+	color:darkred;
+}
+
+a:hover{
+	background-color: linen;
+	text-decoration: underline;
+}
+
+a:active{
+	color:rosybrown;
+}

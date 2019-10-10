@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image: url("clean_textile_@2X.png");
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrapper {
+	width: 1024px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+header {
+	background-color:#000000;
+	height: 50px;
+}
+
+nav {
+	width: 1024px;
+	float: left;
+	margin-left: 26px;
+	margin-top: 20px;
+}
+dl {
+	margin-right: 409px;
+	
+}
+dt {
+	color:#FFFFFF;
+	font-weight:lighter;
+	margin-right: 111px;
+	display: inline;
+	float:left;
+	font-size: 20px;
+}
+a.link {
+	color:#FFFFFF;
+}
+a.clicked {
+	color:#FFFFFF;
+}
+
+#top {
+	background-image:url("menubg.png");
+	height: 377px;
+}
+h1 {
+	color:#FFFFFF;
+	font-size: 55px;
+	text-align: center;
+	font-weight: bolder;
+}
+main {
+	float: left;
+	width: 1024px;
+}
+h2 {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.menuholder {
+	float: left;
+	width: 1024px;
+	margin-left: 40px;
+	align-content: center;
+}
+.menu {
+	margin-left: 50px;
+	width: 363px;
+	align-content: center;
+	float: left;
+}
+li {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.price {
+	float: right;
+}
+small {
+	font-size: 10px;
+	color: #000000;
+}
+em {
+	color: #882325;
+}
+footer {
+	float: right;
+	background-color:#000000;
+	width: 1024px;
+}
+small {
+	color:#FFFFFF;
+	font-size: 10px;
+	margin-left: 664px;
+	margin-bottom: 40px;
+}

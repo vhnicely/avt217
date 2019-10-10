@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image: url("clean_textile_@2X.png");
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#wrapper {
+	width: 1024px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+header {
+	background-color:#000000;
+	height: 50px;
+}
+
+nav {
+	width: 1024px;
+	float: left;
+	margin-left: 26px;
+	margin-top: 20px;
+}
+dl {
+	margin-right: 409px;
+	
+}
+dt {
+	color:#FFFFFF;
+	font-weight:lighter;
+	margin-right: 111px;
+	display: inline;
+	float:left;
+	font-size: 20px;
+}
+a.link {
+	color:#FFFFFF;
+}
+a.clicked {
+	color:#FFFFFF;
+}
+#top {
+	background-image:url("header bg.png");
+	width: 1024px;
+	height: 652px;
+	align-content: center;
+}
+h1 {
+	color:#FFFFFF;
+	font-weight: bolder;
+	font-size: 50px;
+	text-align:center;
+}
+li {
+	float: left;
+	display: inline;
+	font-weight: lighter;
+	font-size: 36px;
+	margin-left: 90px;
+	color: #FFFFFF;
+}
+#text {
+	float: left;
+	font-size: 15px;
+	margin-top: 40px;
+	margin-left: 55px;
+	margin-right: 170px;
+}
+p {
+	margin-bottom: 42px;
+}
+h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#image {
+	float:left;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+footer {
+	float: right;
+	background-color:#000000;
+	width: 1024px;
+}
+small {
+	color:#FFFFFF;
+	font-size: 10px;
+	margin-left: 664px;
+	margin-bottom: 40px;
+}

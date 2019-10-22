@@ -3,53 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <title>Project 2 Homepage</title>
-	<link rel="stylesheet" href="homepage.css">
+	<link rel="stylesheet" href="menu.css">
 </head>
 
 <body>
 	<div id="wrapper">
-		<header> 
-			<nav>
+	<header>
+		<nav>
+			<div id="navleft">
 				<dl>
 					<dt><a href="homepage.html">Home</a></dt>
 					<dt><a href="menu.html">Menu</a></dt>
 				</dl>
+			</div>
+			<div id="logo">
+			</div> <!-- end logo -->
+			<div id="navright">
 				<dl>
 					<dt>Catering</dt>
 					<dt>Contact</dt>
 				</dl>
+			</div>
 			</nav>
-		</header>
+	</header>
 		<div id="top">
-			<h1>Ray's Hell Burger</h1>
-			logo
+			<div class="bigtitle">Ray's Hell Burger</div>
+			<div id="headerlogo">
+				<img src="logo.png" alt="logo">
+			</div>
 			<ul>
-				<li>Burgers</li>
-				<li>'Dogs</li>
-				<li>Sandwiches</li>
-				<li>Fries</li>
+				<div class="list">Burgers</div>
+				<div class="list">'Dogs</div>
+				<div class="list">Sandwiches</div>
+				<div class="list">Fries</div>
 			</ul>
 		</div> <!-- end top -->
 		<main>
 			<div id="text">
-				<p>Location:<br>
-				1234 Wilson Boulevard, Arlington, VA<br>
-				Hours of Operation:<br>
-				Daily from 11 AM - 10 PM<br>
-				Reservations:<br>
-				For reservations call 555-555-5555</p>
-				<h2>Delicious food at a lot price!</h2>
-				<p>Check out our menu to look at our burgers,<br> dogs, sandwiches, and fries!</p>
+				<div class="textbold">Location:</div>
+				<div class="text">1234 Wilson Boulevard, Arlington, VA</div>
+				<div class="textbold">Hours of Operation:</div>
+				<div class="text">Daily from 11 AM - 10 PM</div>
+				<div class="textbold">Reservations:</div>
+				<div class="text">For reservations call 555-555-5555</div>
+				<h2>Delicious food at a low price!</h2>
+				<div class="text">Check out our menu to look at our burgers,<br> dogs, sandwiches, and fries!</div>
 			</div> <!-- end text -->
 			<div id="image">
 				<img src="hou_food_160315_brambleburger_phaedracook.jpg.png" alt="burger and chips" style="width:445px;height:297px;">
 			</div> <!-- end image -->
 			<footer>
-				<small>©Copyright 2019 Ray's Hell Burgers</small>
-				<img src="insta.png" alt="instagram logo">
-				<img src="twitter.png" alt="twitter logo">
-				<img src="tumblr.png" alt="tumblr logo">
-				<img src="facebook.png" alt="facebook logo">
+				<p>©Copyright 2019 Ray's Hell Burgers</p>
+				<div id="footer">
+				<img src="insta.png" alt="instagram logo" >
+				<img src="twitter.png" alt="twitter logo" >
+				<img src="tumblr.png" alt="tumblr logo" >
+				<img src="facebook.png" alt="facebook logo" >
+				</div>
 			</footer>
 		</main>
 	</div> <!-- end wrapper -->

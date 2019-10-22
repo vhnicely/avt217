@@ -10,24 +10,29 @@
 	<div id="wrapper">
 	<header>
 		<nav>
+			<div id="navleft">
 				<dl>
 					<dt><a href="homepage.html">Home</a></dt>
 					<dt><a href="menu.html">Menu</a></dt>
 				</dl>
-				<div id="logo">
-				</div> <!-- end logo -->
+			</div>
+			<div id="logo">
+				<img src="logo.png" alt="logo" width="30px" height="30px">
+			</div> <!-- end logo -->
+			<div id="navright">
 				<dl>
 					<dt>Catering</dt>
 					<dt>Contact</dt>
 				</dl>
+			</div>
 			</nav>
 	</header>
-	<div id="top">
-		<h1>Menu</h1>
+	<div id="topholder">
+			<div class="bigtitle">Menu</div>
 	</div>
-	<main>
+	<div id="menumain">
 		
-		<h2>Burgers</h2>
+		<div class="title">Burgers</div>
 		<div class="menuholder">
 			<div class="menu">
 				<ul>
@@ -47,7 +52,7 @@
 			</div> <!-- end burgers part 2 -->
 		</div> <!-- end BURGERS -->
 		<div class="menuholder">
-			<h2>Dogs</h2>
+			<div class="title">Dogs</div>
 			<div class="menu">
 				<ul>
 					<li>Kosher style Hot Dog <span class="price">$3.59</span></li>
@@ -61,7 +66,7 @@
 				</ul>
 			</div> <!-- end dogs part 2 -->
 		</div> <!-- end DOGS -->
-		<h2>Sandwiches</h2>
+		<div class="title">Sandwiches</div>
 		<div class="menuholder">
 			<div class="menu">
 				<ul>
@@ -75,8 +80,8 @@
 				</ul>
 			</div> <!-- end sandwiches part 2 -->
 		</div>
-		<small><em>NOTE:</em>Veggie sandwiches do not contain veggie burger patties.</small>
-		<h2>Fries</h2>
+		<div class="smalltext"><em>NOTE:</em>Veggie sandwiches do not contain veggie burger patties.</div>
+		<div class="title">Fries</div>
 		<div class="menuholder">
 			<div class="menu">
 				<ul>
@@ -89,8 +94,8 @@
 				</ul>
 			</div> <!-- end fries part 2 -->
 		</div> <!-- end FRIES -->
-		<small>*Our fries are cooked in pure, no cholesterol, tasty peanut oil!</small>
-		<h2>Complimentary Toppings</h2>
+				<div class="smalltext">*Our fries are cooked in pure, no cholesterol, tasty peanut oil!</div>
+		<div class="title">Complimentary Toppings</div>
 		<div class="menuholder">
 			<div class="menu">
 				<ul>
@@ -112,13 +117,15 @@
 				</ul>
 			</div> <!-- end toppings 2 -->
 		</div> <!-- end TOPPINGS -->
-	</main>
+	</div>
 	<footer>
-			<small>©Copyright 2019 Ray's Hell Burgers</small>
+			<p>©Copyright 2019 Ray's Hell Burgers</p>
+		<div id="footer">
 			<img src="insta.png" alt="instagram logo">
 			<img src="twitter.png" alt="twitter logo">
 			<img src="tumblr.png" alt="tumblr logo">
 			<img src="facebook.png" alt="facebook logo">
+		</div>
 		</footer>
 	</div>
 </body>

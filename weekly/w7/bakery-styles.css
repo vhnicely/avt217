@@ -24,6 +24,7 @@ a {
 }
 
 
+
 /* header styles */
 header {
   color: white;
@@ -74,29 +75,38 @@ main {
   margin: 2.5%;
 }
 h3 {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  color: #7A0002;
-  border-top: 1px solid;
-  border-left: 3px solid;
-  padding-left: 1em;
-  margin-top: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #7A0002;
+	border-top: 1px solid;
+    border-left: 3px solid;
+    padding-left: 1em;
+	margin-top: 2.5em;
 }
 p.more {
-  font-family: verdana, sans-serif;
-  text-transform: uppercase; 
-  font-size: .8em;
-	margin: 0 1em 1em 0;
+	font-family: verdana, sans-serif;
+	text-transform: uppercase; 
+	font-size: .8em;
+	clear: left;
 }
-img[src*="muffin"] {
-	margin-left: 50px;
-	-webkit-shape-outside: circle(110px);
-	shape-outside: polygon(0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 131px, 250px 142px, 250px 158px, 0px 158px);
+main img {
+  float: left;
+  margin: 0 1em 1em 0;
 }
+
 img[src*="bread"] {
-	-webkit-shape-outside: ellipse(130px 95px at 50% 50%);
-	shape-outside: ellipse(130px 95px at 50% 50%);
+  -webkit-shape-outside: ellipse(130px 95px at 50% 50%);
+  shape-outside: ellipse(130px 95px at 50% 50%);
 }
+
+img[src*="muffin"] {
+  margin-left: 50px;
+  -webkit-shape-outside: circle(125px);  
+  shape-outside: circle(125px);
+  -webkit-shape-outside: polygon(0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 131px, 250px 142px, 250px 158px, 0px 158px);
+  shape-outside: polygon(0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 131px, 250px 142px, 250px 158px, 0px 158px);  
+}
+
 
 /* aside "hours" styles */
 aside {
@@ -115,20 +125,11 @@ footer {
   padding: 1em;
 }
 h2 {
-  font-family: 'Stint Ultra Expanded', Geprgia, serif;
-}
-main img {
-	float: left;
-}
-#award {  
-  position: fixed;  
-  top: 30px;  
-  left: 50px;
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
 }
 .day {
   color: #783F27;
   font-family: verdana, sans-serif;
   font-size: .8em;
   text-transform: uppercase;
-}/* CSS Document */
-
+}

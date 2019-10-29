@@ -52,8 +52,8 @@ table {
 }
 
 #wrapper {
-	width: 1024px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	width: 1024px;
 }
 
 header {
@@ -100,7 +100,6 @@ a:hover {
 }
 #topholder {
 	background-image:url("menubg.png");
-	width: 1024px;
 	height:425px;
 }
 #top {
@@ -123,30 +122,30 @@ a:hover {
 .title {
 	font-size: 30px;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-bottom: 30px;
 }
-span {
+.title span {
 	display: inline-block;
 	position: relative;
 }
-span:before,
-span:after {
-	content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
-  top: 0;
-  width: 600px;
+.title span:before,
+.title span:after {
+background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 100px;
 }
-span:before {
-	right: 100%;
-  margin-right: 15px;
+.title span:before {
+ right: 0.5em;
+    margin-left: -50%;
 }
-span:after {
-	left: 100%;
-  margin-left: 15px;
+.title span:after {
+  left: 0.5em;
+    margin-right: -50%;
 }
 .menuholder {
 	float: left;
@@ -221,7 +220,7 @@ p {
 #image {
 	float:right;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 90px;
 }
 #text h2 {
 	font-size: 22px;

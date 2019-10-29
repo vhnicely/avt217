@@ -51,7 +51,7 @@ table {
 	border-spacing: 0;
 }
 body{
-	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-family: 'Quicksand', sans-serif;
 }
 dt {
 	font-weight:bold;
@@ -60,7 +60,6 @@ dt {
 a:link{
 	text-decoration: none;
 	color: #72565B;
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 a:visited{
 	color:rosybrown;

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>3D Environments - Merchant House</title>
+	<link rel="stylesheet" href="p3css.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="sidebar">
+			<h1>Vanessa Nicely</h1>
+		<div class="link"><a href="homepage.html"><p>Home</p></a></div>
+			<div class="link"><a href="3denvironments.html"><p>3D Environments</p><a></div>
+			<div class="link"><a href="conceptart.html"><p>Concept Art</p></a></div>
+			<div class="link"><a href="characters.html"><p>3D Characters</p></a></div>
+			<div class="link"><a href="refsheets.html"><p>Reference Sheets</p></a></div>
+			<div class="link"><a href="about.html"><p>About</p></a></div>
+			<div class="link"><a href="3denvironments.html"><p>Back</p></a></div>
+		</div>
+		<!-- end sidebar -->
+		<div id="header">
+			<h2>Merchant House</h2>
+		</div>
+		<div id="content">
+			</div>
+			<div class="item">
+				<h4></h4>
+				<img src="house2.JPG" alt="merchanthouse" width="700" >
+				<p>Worked on model, UVs, textures.</p>
+			</div>
+			<!-- end 1-->
+			<div class="item">
+				<h4></h4>
+				<img src="house.jpeg" alt="tower" width="700">
+			</div>
+			<!-- end 2 -->
+	<div class="item">
+				<h4></h4>
+				<img src="house3.JPG" alt="tower" width="700">
+			</div>
+			<!-- end 3 -->
+		</div>
+		<!-- end content -->
+		<div id="footer">
+			<small>Copyright 2019</small>
+		</div>
+	</div>
+	<!-- end wrapper -->
+</body>
+</html>

@@ -115,6 +115,7 @@ h3 {
 	margin-right: 10px;
 	margin-top: 10px;
 	word-wrap: normal;
+	clear: right;
 }
 .sidebar a:link {
 	color:#e6ffff;
@@ -254,6 +255,7 @@ h3 {
 	margin-left: 20px;
 	margin-right: 10px;
 	text-wrap: normal;
+	clear: right;
 }
 .sidebar a:link {
 	color:#e6ffff;
@@ -330,6 +332,7 @@ h4 {
 .sidebar img {
 	float: left;
 	padding-right: .5px;
+	margin-top: 10px;
 }/* end homepage */
 
 /* pages */

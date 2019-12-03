@@ -114,7 +114,7 @@ h3 {
 	word-wrap: normal;
 }
 .sidebar a:link {
-	color:blue;
+	color:#e6ffff;
 }
 
 #content {
@@ -253,7 +253,7 @@ h3 {
 	text-wrap: normal;
 }
 .sidebar a:link {
-	color:#000000;
+	color:#e6ffff;
 }#content {
 	float: left;
 	width: 73%;

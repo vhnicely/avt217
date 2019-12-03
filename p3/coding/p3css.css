@@ -90,8 +90,14 @@ body {
 	margin-top: 10px;
 }
 .llink {
-	color:#e6ffff;
-}
+	color:#e6ffff;}
+.llink h1{
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 40px;
+	text-align: center;}
+
 h1 {
 	color: #FFFFFF;
 	font-weight: bold;
@@ -335,8 +341,13 @@ h4 {
 	margin-top: 10px;
 }
 .llink {
-	color:#e6ffff;
-}
+	color:#e6ffff;}
+.llink h1{
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 40px;
+	text-align: center;}
 /* end homepage */
 
 /* pages */

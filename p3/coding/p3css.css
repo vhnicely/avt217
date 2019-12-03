@@ -182,6 +182,9 @@ h4 {
 	width: 20%;
 	height: 20%;
 }
+.item p {
+	font-size: 1em;
+}
 
 
 @media only screen and (min-width: 800px) {
@@ -203,6 +206,9 @@ a:visited {
 	width: 100%;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+.item p {
+	font-size: 1.5em;
+	}
 .sidebar {
 	width: 22%;
 	background-color: #b1bcc2;

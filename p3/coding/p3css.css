@@ -84,7 +84,10 @@ body {
 	position: fixed;
 	top: 0;
 }
-
+.sidebar img {
+	float: left;
+	padding-right: .5px;
+}
 h1 {
 	color: #FFFFFF;
 	font-weight: bold;
@@ -324,6 +327,9 @@ h4 {
 	width: 50%;
 	}
 }
-/* end homepage */
+.sidebar img {
+	float: left;
+	padding-right: .5px;
+}/* end homepage */
 
 /* pages */
